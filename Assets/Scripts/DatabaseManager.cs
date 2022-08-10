@@ -49,7 +49,7 @@ public class DatabaseManager : MonoBehaviour
             var sensorEnumerator = dataSnapshot.Child("IsHeated").Children;
             foreach (var sensor in sensorEnumerator)
             {
-                SensorStatus.ReceiveHeatStatus?.Invoke();
+                MicrocontrollerManager.UpdateStatus?.Invoke(sensor.Key, sensor.Value.ToString());
             }
         }
     }

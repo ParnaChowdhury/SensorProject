@@ -123,6 +123,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &59319506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2800619884293430291, guid: 4040320426dc2ff4ca486d01aa561e2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1488403202}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &113527581
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,6 +218,12 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2800619884293430290, guid: 4040320426dc2ff4ca486d01aa561e2d,
     type: 3}
   m_PrefabInstance: {fileID: 1330710175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &128076798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2800619884293430291, guid: 4040320426dc2ff4ca486d01aa561e2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 175637051}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &175637051
 PrefabInstance:
@@ -354,6 +366,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4040320426dc2ff4ca486d01aa561e2d, type: 3}
+--- !u!1 &281815999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2800619884293430291, guid: 4040320426dc2ff4ca486d01aa561e2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 786385756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &411315458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2800619884293430291, guid: 4040320426dc2ff4ca486d01aa561e2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1330710175}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &561096230 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2800619884293430290, guid: 4040320426dc2ff4ca486d01aa561e2d,
@@ -390,6 +414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -1051,6 +1076,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1145313022 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2800619884293430291, guid: 4040320426dc2ff4ca486d01aa561e2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1021333069}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1319348638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2800619884293430291, guid: 4040320426dc2ff4ca486d01aa561e2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2800619883683622943}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1330710175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1345,6 +1382,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 175637051}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1649550550 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2800619884293430291, guid: 4040320426dc2ff4ca486d01aa561e2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 877963039}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1656276835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1486,6 +1529,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4040320426dc2ff4ca486d01aa561e2d, type: 3}
+--- !u!1 &1713105367 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2800619884293430291, guid: 4040320426dc2ff4ca486d01aa561e2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1656276835}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1829023097 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2800619884293430290, guid: 4040320426dc2ff4ca486d01aa561e2d,
@@ -1602,20 +1651,28 @@ MonoBehaviour:
   temperatureSensors:
   - isHeaterOn: 0
     isHeated: 0
+    button: {fileID: 1319348638}
   - isHeaterOn: 0
     isHeated: 0
+    button: {fileID: 1649550550}
   - isHeaterOn: 0
     isHeated: 0
+    button: {fileID: 128076798}
   - isHeaterOn: 0
     isHeated: 0
+    button: {fileID: 281815999}
   - isHeaterOn: 0
     isHeated: 0
+    button: {fileID: 411315458}
   - isHeaterOn: 0
     isHeated: 0
+    button: {fileID: 1145313022}
   - isHeaterOn: 0
     isHeated: 0
+    button: {fileID: 1713105367}
   - isHeaterOn: 0
     isHeated: 0
+    button: {fileID: 59319506}
 --- !u!114 &1941526718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1657,6 +1714,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1913677359}
     m_Modifications:
+    - target: {fileID: 2800619884293430288, guid: 4040320426dc2ff4ca486d01aa561e2d,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800619884293430288, guid: 4040320426dc2ff4ca486d01aa561e2d,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800619884293430288, guid: 4040320426dc2ff4ca486d01aa561e2d,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2800619884293430289, guid: 4040320426dc2ff4ca486d01aa561e2d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

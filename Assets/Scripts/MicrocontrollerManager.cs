@@ -5,30 +5,36 @@ using UnityEngine;
 using Object = UnityEngine.Object;
 
 [Serializable]
-public struct TemperatureSensors
+public class TemperatureSensors
 {
-    [SerializeField] private int index;
-    [SerializeField] private bool isHeated;
+    [SerializeField] public bool isHeaterOn;
+    [SerializeField] public bool isHeated;
 }
 public class MicrocontrollerManager : MonoBehaviour
 {
     public static Action<string, string> ToggleHeater;
-    [SerializeField] private List<TemperatureSensors> temperatureSensors;
-    
+    [SerializeField] public List<TemperatureSensors> temperatureSensors;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         ToggleHeater += ToggleHeaters;
     }
 
-    private void ToggleHeaters(string arg1, string s)
+    public void ToggleHeaters(string index, string isHeater)
     {
-        Debug.Log($"{arg1}:{s}");
+        if (temperatureSensors != null)
+        {
+            temperatureSensors[int.Parse(index)].isHeaterOn = Convert.ToBoolean(isHeater);
+            Debug.Log($"{index}: {temperatureSensors[int.Parse(index)].isHeaterOn}");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

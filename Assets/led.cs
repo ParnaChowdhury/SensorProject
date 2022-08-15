@@ -1,12 +1,12 @@
 using UnityEngine;
 using System.Collections;
-using System.IO.Ports;
+//using System.IO.Ports;
 
 public class led : MonoBehaviour {
 										//     port				   boud rate
 										//  	|					   |
 										//      V					   V
-	public SerialPort serial = new SerialPort ("COM4", 9600); //here change port - where you have connected arduino to computer
+	/*public SerialPort serial = new SerialPort ("COM4", 9600); //here change port - where you have connected arduino to computer
 	private bool lightState = false;
 
 	public void onLed() {
@@ -33,6 +33,6 @@ public class led : MonoBehaviour {
 
 		serial.Write ("a");
 		lightState = false;
-	}
+	}*/
 
 }

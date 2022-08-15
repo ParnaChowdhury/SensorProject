@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5420773405137924368
+  m_GuidHigh: 17317132682386465162
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5186869306405583126
+      m_GuidHigh: 3574277681668358844
+    m_SerializedTextureGuid:
+      m_GuidLow: 2638912429236493959
+      m_GuidHigh: 4951298184344862619
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_code1
+    m_Texture: {fileID: 2800000, guid: 72011e874cdf249f9b7fe92e778bb644, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5308717865292577466
+      m_GuidHigh: 10131743444020001469
+    m_SerializedTextureGuid:
+      m_GuidLow: 16471389113200432294
+      m_GuidHigh: 9009024795673231272
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_code2
+    m_Texture: {fileID: 2800000, guid: 198c54a62121e496a8ffc9de517c067d, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4876596222009922474
+      m_GuidHigh: 2689494450842766252
+    m_SerializedTextureGuid:
+      m_GuidLow: 16447146992732395345
+      m_GuidHigh: 15938276190134404395
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_code3
+    m_Texture: {fileID: 2800000, guid: 9672d751010ce4402b050715c02130dd, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5661049294305081591
+      m_GuidHigh: 4109413952250679430
+    m_SerializedTextureGuid:
+      m_GuidLow: 7251963140078178669
+      m_GuidHigh: 12784527975941222731
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_code4
+    m_Texture: {fileID: 2800000, guid: a896116d260d64a44b31057375c46bb1, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4845215209389450883
+      m_GuidHigh: 981392495631567513
+    m_SerializedTextureGuid:
+      m_GuidLow: 14182100724315022211
+      m_GuidHigh: 8704944234232975369
+    m_Size: {x: 0.10044643, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_code5
+    m_Texture: {fileID: 2800000, guid: 019b6383f178c4d009900a07a92cce78, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5721741130656995415
+      m_GuidHigh: 9746408621021837739
+    m_SerializedTextureGuid:
+      m_GuidLow: 2655730273035012761
+      m_GuidHigh: 15078031899263186760
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_code6
+    m_Texture: {fileID: 2800000, guid: d780ca990c9c24db4837972320ee3fd1, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4819693969919648054
+      m_GuidHigh: 8310793103847467668
+    m_SerializedTextureGuid:
+      m_GuidLow: 14135025608964875858
+      m_GuidHigh: 13814332689192324714
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_code7
+    m_Texture: {fileID: 2800000, guid: 9966a652b2e6c4296a0e60ac635eb6bf, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4664389089505945987
+      m_GuidHigh: 8847628711031322541
+    m_SerializedTextureGuid:
+      m_GuidLow: 8369731353036295745
+      m_GuidHigh: 2147289883208910648
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_code8
+    m_Texture: {fileID: 2800000, guid: 232d8e41425274273807759ec5b4cc1d, type: 3}

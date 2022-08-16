@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: CompanionResourceSync
   m_EditorClassIdentifier: 
   m_Resources:
+  - m_AssetGuid: 6bdce89659816455b9f906fc62d19910
+    m_CloudGuid: 3ecf18be-e465-46d3-b84b-8af9a4fb7efc
   - m_AssetGuid: 6caef3819ac4e4df280d4f40057b0902
-    m_CloudGuid: 46df69a9-88d9-41af-89e7-a9a0a1aae9be
+    m_CloudGuid: 3ecf18be-e465-46d3-b84b-8af9a4fb7efc
